@@ -1,0 +1,27 @@
+{
+    "name": "Balloon",
+    "version": "0.0.1",
+    "private": false,
+    "author": "Kaique da Silva <kaique.developer@gmail.com>",
+    "description": "A REST tool for test your applications, using a easy way.",
+    "bin": {
+        "balloon": "./lib/main"    
+    },
+    "main": "./lib/main",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaiquewdev/balloon.git"
+    },
+    "dependencies": {
+       "bson": "*",
+       "request": "*",
+       "JSON2": "*"
+    },
+    "devDependencies": {
+        "mocha": "*"    
+    },
+    "license": "FreeBSD",
+    "engines": {
+        "node": ">=0.8"    
+    }
+}
